@@ -1,0 +1,11 @@
+[package]
+name = "decode_rl_replay"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+winit = "0.29"
+egui = "0.27"
+egui_winit = "0.27"
+egui_glium = "0.27"
+glium = "0.32"
