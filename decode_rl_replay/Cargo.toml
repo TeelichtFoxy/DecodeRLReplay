@@ -4,3 +4,18 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+winit = "0.29"
+
+egui = "0.27"
+
+egui-winit = { version = "0.27", features = ["clipboard", "links"] }
+
+#egui_glow = "0.27"
+#glow = "0.13"
+
+rfd = "0.14"
+
+#glutin = { version = "0.31.3", features = ["winit"] }
+#glutin-winit = "0.4"
+
+#raw-window-handle = "0.5"
